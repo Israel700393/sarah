@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0205bb;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(116, 113, 128);
+  color: #0e0e0f;
+  scroll-behavior: smooth;
+}
+
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+  color: #0f2546;
+  text-align: center;
+}
+p {
+  text-align: center;
+}

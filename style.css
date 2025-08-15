@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(236, 181, 173);
+  color: #333;
+  scroll-behavior: smooth;
+}
+header {
+    background: url('');
+}
+
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+  color: #263e63;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+#bg-video {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#audio {
+    position: relative;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+#bg-audio {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.overlay {
+  position: relative;
+  top: 40%;
+}
+
+.typing {
+  font-size: 2.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .15em solid white;
+  animation:  3s steps(30, end), blink .75s step-end infinite;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ff69b4;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.timeline {
+  background: #ffe4e1;
+  padding: 50px;
+  text-align: center;
+}
+
+.timeline ul {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.gallery {
+  padding: 40px;
+  background: #fffafa;
+  text-align: center;
+}
+
+.images {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background: url('/site-claudio/VID-20250813-WA0027.mp4');
+}
+
+.carta {
+  padding: 40px;
+  background: #fff0f5;
+  text-align: center;
+}
+
+.envelope {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.surpresa {
+  padding: 40px;
+  text-align: center;
+  background-color: #ffc0cb;
+}
+
+.btn-surpresa {
+  padding: 10px 20px;
+  background: #e75480;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mensagem-oculta {
+  display: none;
+  margin-top: 20px;
+  font-size: 1.3em;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgb(231, 168, 168);
+}
+
+
+.hero {
+  background: url('/site-claudio/VID-20250813-WA0028.mp4');
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+  padding: 2rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #70a9ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #cecece;
+  color: #0759d4;
+  
+}
+
+.produtos-section {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.produtos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.produto-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem;
+  transition:  0.3s ease;
+}
+
+.produto-card:hover {
+  transform: translateY(-5px);
+}
+
+.produto-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+ 
+video {
+  width: 220px;
+}
+
+.add-cart {
+  background-color: #264653;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
